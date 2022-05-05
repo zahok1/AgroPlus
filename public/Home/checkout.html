@@ -225,13 +225,44 @@
                     </div>
 
                     <div class="checkout-payment" style="margin-bottom: 30px;">
+                        <h2>Delivery Methods</h2>
+                        <div class="payment-methods">
+                            <div class="payment-method">
+
+                                <div class="payment-method">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" type="radio" class="custom-control-input" id="payment-1" name="payment">
+                                        <label class="custom-control-label" for="payment-1">Pick Up</label>
+                                    </div>
+                                </div>
+                                <div class="payment-method">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="payment-2" name="payment" checked>
+                                        <label class="custom-control-label" for="payment-2">Front Door Delivery</label>
+                                    </div>
+                                    <div class="payment-content" id="payment-2-show">
+                                        <p>
+                                            Costs ₦1500
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div id="btn" class="checkout-btn">
+                                <a href="http://localhost:5000/home/thank-you">
+                                    <button onclick="thanks">Place Order</button>
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="checkout-payment" style="margin-bottom: 30px;">
                         <h2>Payment Methods</h2>
                         <div class="payment-methods">
                             <div class="payment-method">
 
                                 <div class="payment-method">
                                     <div class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="payment-3" name="payment">
+                                        <input type="radio" class="custom-control-input" id="payment-3" name="payment1">
                                         <label class="custom-control-label" for="payment-3">Check Payment</label>
                                     </div>
                                     <div class="payment-content" id="payment-3-show">
@@ -242,7 +273,7 @@
                                 </div>
                                 <div class="payment-method">
                                     <div class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="payment-4" name="payment">
+                                        <input type="radio" class="custom-control-input" id="payment-4" name="payment1">
                                         <label class="custom-control-label" for="payment-4">Direct Bank Transfer</label>
                                     </div>
                                     <div class="payment-content" id="payment-4-show">
@@ -253,7 +284,7 @@
                                 </div>
                                 <div class="payment-method">
                                     <div class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" id="payment-5" name="payment">
+                                        <input type="radio" class="custom-control-input" id="payment-5" name="payment1">
                                         <label class="custom-control-label" for="payment-5">Cash on Delivery</label>
                                     </div>
                                     <div class="payment-content" id="payment-5-show">

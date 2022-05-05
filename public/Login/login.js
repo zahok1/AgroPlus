@@ -10,5 +10,6 @@ const login = () => {
         })
     }).then(res => {
         res.json().then(body => console.log(body))
+        location.href("/home")
     })
 }
