@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Finalise your order</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Bootstrap Ecommerce Template" name="keywords">
+    <meta content="Bootstrap Ecommerce Template Free Download" name="description">
+
+    <!-- Favicon -->
+    <link href="/assets/img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/lib/slick/slick.css" rel="stylesheet">
+    <link href="/assets/lib/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets/css/checkout.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Header Start -->
+    <div class="top-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="">
+                            <img src="/assets/img/tree.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="user">
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hi, zahok1</a>
+                            <div class="dropdown-menu">
+                                <a href="/home/account" class="dropdown-item">View account details</a>
+                            </div>
+                        </div>
+                        <div class="cart">
+                            <span style="color: rgb(95, 99, 223);">Cart</span>
+                            <a href="/home/cart"><i class="fa fa-cart-plus"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Header End -->
+
+
+    <!-- Header Start -->
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav m-auto">
+                        <a href="/home" class="nav-item nav-link">Home</a>
+                        <a href="/home/products" class="nav-item nav-link active">Products</a>
+                        <a href="/home/maps" class="nav-item nav-link">Maps</a>
+                        <a href="/home/contact" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                <li class="breadcrumb-item"><a href="/home/product">Products</a></li>
+                <li class="breadcrumb-item"><a href="/home/cart">Cart</a></li>
+                <li class="breadcrumb-item active">Checkout</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+
+    <!-- Checkout Start -->
+    <div class="checkout">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="billing-address">
+                        <h2>Billing Address</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>First Name</label>
+                                <input class="form-control" type="text" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label>Last Name</label>
+                                <input class="form-control" type="text" placeholder="Last Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label>E-mail</label>
+                                <input class="form-control" type="text" placeholder="E-mail">
+                            </div>
+                            <div class="col-md-6">
+                                <label>Mobile No</label>
+                                <input class="form-control" type="text" placeholder="Mobile No">
+                            </div>
+                            <div class="col-md-12">
+                                <label>Address</label>
+                                <input class="form-control" type="text" placeholder="Address">
+                            </div>
+                            <div class="col-md-6">
+                                <label>Locale</label>
+                                <select class="custom-select">
+                                    <option selected>Jimeta</option>
+                                    <option>Madumari</option>
+                                    <option>Yola Central</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label>City</label>
+                                <input class="form-control" type="text" placeholder="City">
+                            </div>
+                            <div class="col-md-6">
+                                <label>State</label>
+                                <input class="form-control" type="text" placeholder="State">
+                            </div>
+                            <div class="col-md-6">
+                                <label>ZIP Code</label>
+                                <input class="form-control" type="text" placeholder="ZIP Code">
+                            </div>
+                            <!-- <div class="col-md-12">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="newaccount">
+                                        <label class="custom-control-label" for="newaccount">Create an account</label>
+                                    </div>
+                                </div> -->
+                            <!-- <div class="col-md-12">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="shipto">
+                                        <label class="custom-control-label" for="shipto">Ship to different address</label>
+                                    </div>
+                                </div> -->
+                        </div>
+                    </div>
+
+                    <div class="shipping-address">
+                        <h2>Shipping Address</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>First Name</label>
+                                <input class="form-control" type="text" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label>Last Name"</label>
+                                <input class="form-control" type="text" placeholder="Last Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label>E-mail</label>
+                                <input class="form-control" type="text" placeholder="E-mail">
+                            </div>
+                            <div class="col-md-6">
+                                <label>Mobile No</label>
+                                <input class="form-control" type="text" placeholder="Mobile No">
+                            </div>
+                            <div class="col-md-12">
+                                <label>Address</label>
+                                <input class="form-control" type="text" placeholder="Address">
+                            </div>
+                            <div class="col-md-6">
+                                <label>Country</label>
+                                <select class="custom-select">
+                                    <option selected>United States</option>
+                                    <option>Afghanistan</option>
+                                    <option>Albania</option>
+                                    <option>Algeria</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label>City</label>
+                                <input class="form-control" type="text" placeholder="City">
+                            </div>
+                            <div class="col-md-6">
+                                <label>State</label>
+                                <input class="form-control" type="text" placeholder="State">
+                            </div>
+                            <div class="col-md-6">
+                                <label>ZIP Code</label>
+                                <input class="form-control" type="text" placeholder="ZIP Code">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="checkout-summary">
+                        <h2>Cart Total</h2>
+                        <div class="checkout-content">
+                            <h3>Products</h3>
+                            <p>Papaya<span>₦2000</span></p>
+                            <p>Banana<span>₦900</span></p>
+                            <p>Grape<span>₦2000</span></p>
+                            <p class="sub-total">Sub Total<span>₦4900</span></p>
+                            <p class="ship-cost">Shipping Cost<span>₦1500</span></p>
+                            <h4>Grand Total<span>₦6400</span></h4>
+                        </div>
+                    </div>
+
+                    <div class="checkout-payment" style="margin-bottom: 30px;">
+                        <h2>Payment Methods</h2>
+                        <div class="payment-methods">
+                            <div class="payment-method">
+
+                                <div class="payment-method">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="payment-3" name="payment">
+                                        <label class="custom-control-label" for="payment-3">Check Payment</label>
+                                    </div>
+                                    <div class="payment-content" id="payment-3-show">
+                                        <p>
+                                            Only available on orders greater than ₦20000
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="payment-method">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="payment-4" name="payment">
+                                        <label class="custom-control-label" for="payment-4">Direct Bank Transfer</label>
+                                    </div>
+                                    <div class="payment-content" id="payment-4-show">
+                                        <p>
+                                            Available on all orders
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="payment-method">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="payment-5" name="payment">
+                                        <label class="custom-control-label" for="payment-5">Cash on Delivery</label>
+                                    </div>
+                                    <div class="payment-content" id="payment-5-show">
+                                        <p>
+                                            Only available on deliveries within Jimeta and Yola Central
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="btn" class="checkout-btn">
+                                <a href="http://localhost:5000/home/thank-you">
+                                    <button onclick="thanks">Place Order</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Checkout End -->
+
+
+        <div class="footer" style="bottom: 0;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <img src="/assets/img/tree.png" alt="" width="20%" style="margin-bottom: 10px ;">
+                            <p>
+                                Being Yola's first agricultural e-commerce platform, we bring farm fresh product right
+                                to your doorstep. <br> <span style="font-size: 25px; font-weight: 600;">AgroPlus</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Quick Links</h3>
+                            <ul>
+                                <li><a href="/home/products">Product</a></li>
+                                <li><a href="/home/cart">Cart</a></li>
+                                <li><a href="/home/checkout">Checkout</a></li>
+                                <li><a href="/home/account">My Account</a></li>
+                                <li><a href="/home/wishlist">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Get in Touch</h3>
+                            <div class="contact-info">
+                                <p><i class="fa fa-map-marker"></i>Yola bypass, AgroPlus Co.</p>
+                                <p><i class="fa fa-envelope"></i>agroplus@info.com</p>
+                                <p><i class="fa fa-phone"></i>+234-999-9999</p>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row payment">
+                    <div class="col-md-6">
+                        <div class="payment-method">
+                            <p>We Accept:</p>
+                            <img src="/assets/img/payment-method.png" alt="Payment Method" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="payment-security">
+                            <p>Secured By:</p>
+                            <!-- <img src="/assets/img/godaddy.svg" alt="Payment Security" />
+                            <img src="/assets/img/norton.svg" alt="Payment Security" /> -->
+                            <img src="/assets/img/ssl.svg" alt="Payment Security" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/lib/easing/easing.min.js"></script>
+        <script src="/assets/lib/slick/slick.min.js"></script>
+
+
+        <!-- Template Javascript -->
+        <script src="/assets/js/main.js"></script>
+        <!-- <script>
+
+        </script> -->
+
+</body>
+
+</html>

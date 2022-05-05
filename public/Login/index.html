@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroPlus | Log In</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        .srouce {
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
+    <script src="login.js"></script>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+
+            <div class="form-body">
+                <h2 class="title" style="margin-bottom: 50px; font-size: 70px;">AgroPlus</h2>
+
+                <form class="the-form" onsubmit="login();">
+
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                    <div style="display: flex; align-items: center;">
+                        <input type="checkbox">
+                        <h1 style="font-size: 15px; color: black;">Remember me</h1>
+                    </div>
+
+                    <input style="color: white; font-weight: bold;" type="submit" value="Log In">
+
+                    <div class="form-footer">
+                        <div>
+                            <span style="color: black;">Don't have an account? </span> <a href="/register" style="color: blue;">Sign Up</a><br>
+                        </div>
+                    </div><!-- FORM FOOTER -->
+
+                </form>
+
+            </div><!-- FORM BODY-->
+
+        </div><!-- FORM CONTAINER -->
+    </div>
+
+</body>
+
+</html>

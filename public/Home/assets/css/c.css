@@ -1,0 +1,69 @@
+.container{
+    top: 0px;
+    z-index: 2;
+}
+footer{
+    margin-top: 50px;
+}
+.text{
+    margin-top: 50px ;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.text > h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.text > p{
+    font-size: 18px;
+    color: rgb(190, 179, 179);
+}
+
+.conform{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.conform > div{
+    justify-content: center;
+    margin: 35px;
+    justify-content: center;
+
+}
+
+.conform > div > img{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conform > div > h1, p{
+   font-family: 'Comfortaa', cursive;
+   text-align: center;
+}
+
+.conform > div > button{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conform > div > p{
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.conform > div > .now{
+    font-size: 18px;
+}

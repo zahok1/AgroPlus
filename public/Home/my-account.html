@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My account</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap Ecommerce Template" name="keywords">
+        <meta content="Bootstrap Ecommerce Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="/assets/img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/assets/lib/slick/slick.css" rel="stylesheet">
+        <link href="/assets/lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+
+
+    <style>
+        .dropdown-toggle{
+            display: none;
+        }
+    </style>
+    
+    <body>
+        <!-- Top Header Start -->
+        <div class="top-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="">
+                                <img src="/assets/img/tree.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="search">
+                            <input type="text" placeholder="Search">
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="user">
+                            <div class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hi, zahok1</a>
+                                <div class="dropdown-menu">
+                                </div>
+                            </div>
+                            <div class="cart">
+                                <span style="color: rgb(95, 99, 223);">Cart</span>
+                                <a href="/home/cart"><i class="fa fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Header End -->
+        
+        
+        <!-- Header Start -->
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="/home" class="nav-item nav-link active">Home</a>
+                            <a href="/home/products" class="nav-item nav-link">Products</a>
+                            <a href="/home/maps" class="nav-item nav-link">Maps</a>
+                            <a href="/home/contact" class="nav-item nav-link">Contact Us</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Header End -->
+        
+        
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                    <li class="breadcrumb-item active">My Account</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
+        
+        <!-- My Account Start -->
+        <div class="my-account">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="dashboard-nav" data-toggle="pill" href="#dashboard-tab" role="tab">Dashboard</a>
+                            <a class="nav-link" id="orders-nav" data-toggle="pill" href="#orders-tab" role="tab">Orders</a>
+                            <a class="nav-link" id="payment-nav" data-toggle="pill" href="#payment-tab" role="tab">Payment Method</a>
+                            <a class="nav-link" id="address-nav" data-toggle="pill" href="#address-tab" role="tab">Address</a>
+                            <a class="nav-link" id="account-nav" data-toggle="pill" href="#account-tab" role="tab">Account Details</a>
+                            <a class="nav-link" href="/login">Logout</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="dashboard-tab" role="tabpanel" aria-labelledby="dashboard-nav">
+                                <h4 >Dashboard</h4>
+                                <p >
+                                    Here, monitor your account from top to bottom
+                                </p> 
+                            </div>
+                            <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Product</th>
+                                                <th>Date</th>
+                                                <th>Price</th>
+                                                <th>Status</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Product Name</td>
+                                                <td>01 Jan 2020</td>
+                                                <td>$22</td>
+                                                <td>Approved</td>
+                                                <td><button>View</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Product Name</td>
+                                                <td>01 Jan 2020</td>
+                                                <td>$22</td>
+                                                <td>Approved</td>
+                                                <td><button>View</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Product Name</td>
+                                                <td>01 Jan 2020</td>
+                                                <td>₦22</td>
+                                                <td>Approved</td>
+                                                <td><button>View</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="payment-tab" role="tabpanel" aria-labelledby="payment-nav" >
+                                <h4>Payment Method</h4>
+                                <p>
+                                    You have selected the pay on delivery option
+                                </p> 
+                            </div>
+                            <div class="tab-pane fade" id="address-tab" role="tabpanel" aria-labelledby="address-nav">
+                                <h4 >Address</h4>
+                                <div class="row" >
+                                    <div class="col-md-6" >
+                                        <h5>Payment Address</h5>
+                                        <p>Yola Town, Jimeta</p>
+                                        <p>Mobile: +234-801-234-5678</p>
+                                        <button>Edit Address</button>
+                                    </div>
+                                    <div class="col-md-6" >
+                                        <h5>Shipping Address</h5>
+                                        <p>Yola Town, Jimeta</p>
+                                        <p>Mobile: +234-801-234-5678</p>
+                                        <button>Edit Address</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="account-tab" role="tabpanel" aria-labelledby="account-nav" >
+                                <h4>Account Details</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" value="Zahok" placeholder="First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" value="Madaki" placeholder="Last Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" value="zahok1" placeholder="Username">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" value="08024681357" placeholder="Mobile">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" value="zahok.madaki@aun.edu.ng" placeholder="Email">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" value="American University of Nigeria" placeholder="Address">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button>Update Account</button>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                <h4>Password change</h4>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="password" placeholder="Current Password">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="New Password">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button>Save Changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- My Account End -->
+        
+        
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <img src="/assets/img/tree.png" alt="" width="20%" style="margin-bottom: 10px ;">
+                            <p>
+                                Being Yola's first agricultural e-commerce platform, we bring farm fresh product right to your doorstep. <br> <span style="font-size: 25px; font-weight: 600;">AgroPlus</span>                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Useful Pages</h3>
+                            <ul>
+                                <li><a href="/home/products">Product</a></li>
+                                <li><a href="/home/products/fruits/:id">Product Detail</a></li>
+                                <li><a href="/home/cart">Cart</a></li>
+                                <li><a href="/home/checkout">Checkout</a></li>
+                                <li><a href="/home/account">My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Quick Links</h3>
+                            <ul>
+                                <li><a href="/home/products">Product</a></li>
+                                <li><a href="/home/cart">Cart</a></li>
+                                <li><a href="/home/checkout">Checkout</a></li>
+                                <li><a href="/home/account">My Account</a></li>
+                                <li><a href="/home/wishlist">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Get in Touch</h3>
+                            <div class="contact-info">
+                                <p><i class="fa fa-map-marker"></i>Yola bypass, AgroPlus Co.</p>
+                                <p><i class="fa fa-envelope"></i>agroplus@info.com</p>
+                                <p><i class="fa fa-phone"></i>+234-999-9999</p>
+                                <div class="social">
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-linkedin"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                    <a href=""><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row payment">
+                    <div class="col-md-6">
+                        <div class="payment-method">
+                            <p>We Accept:</p>
+                            <img src="/assets/img/payment-method.png" alt="Payment Method" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="payment-security">
+                            <p>Secured By:</p>
+                            <!-- <img src="/assets/img/godaddy.svg" alt="Payment Security" />
+                            <img src="/assets/img/norton.svg" alt="Payment Security" /> -->
+                            <img src="/assets/img/ssl.svg" alt="Payment Security" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>Copyright &copy; <a href="https://htmlcodex.com">HTML Codex</a>. All Rights Reserved</p>
+                    </div>
+
+                    <div class="col-md-6 template-by">
+                        <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+        
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/lib/easing/easing.min.js"></script>
+        <script src="/assets/lib/slick/slick.min.js"></script>
+
+        
+        <!-- Template Javascript -->
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>
